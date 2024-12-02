@@ -1,6 +1,7 @@
-import { SignedIn, SignedOut, SignOutButton } from "@clerk/nextjs"
+import { OrganizationSwitcher, SignedIn, SignedOut, SignOutButton } from "@clerk/nextjs"
 import { Link } from "lucide-react"
 import Image from "next/image"
+import { dark } from "@clerk/themes"
 
 const Topbar = () => {
   return (
@@ -29,6 +30,12 @@ const Topbar = () => {
             </SignedIn>
             </div>
         </div>
+        
+        <OrganizationSwitcher
+            appearance={{
+                baseTheme: dark,
+            }}
+        />
     </nav>
   )
 }

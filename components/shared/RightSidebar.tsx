@@ -1,6 +1,10 @@
 const RightSidebar = () => {
   return (
-    <div>RightSidebar</div>
+    <section className="custom-scrollbar rightsidebar">
+        <div className="flex flex-1 fle">
+
+        </div>
+    </section>
   )
 }
 
