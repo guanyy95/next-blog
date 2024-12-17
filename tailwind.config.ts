@@ -211,6 +211,26 @@ module.exports = {
 		  "accordion-down": "accordion-down 0.2s ease-out",
 		  "accordion-up": "accordion-up 0.2s ease-out",
 		},
+
+		// Other objects...
+
+		backgroundColor: {
+			container: "hsl(var(--container))",
+			"gray-primary": "hsl(var(--gray-primary))",
+			"gray-secondary": "hsl(var(--gray-secondary))",
+			"gray-tertiary": "hsl(var(--gray-tertiary))",
+			"left-panel": "hsl(var(--left-panel))",
+			"chat-hover": "hsl(var(--chat-hover))",
+			"green-primary": "hsl(var(--green-primary))",
+			"green-secondary": "hsl(var(--green-secondary))",
+			"green-chat": "hsl(var(--green-chat))",
+		  },
+		  backgroundImage: {
+			"chat-tile-light": "url('/bg-light.png')",
+			"chat-tile-dark": "url('/bg-dark.png')",
+		  },
+	  
+	  // Rest of the file ...
 	  },
 	},
 	plugins: [require("tailwindcss-animate")],
